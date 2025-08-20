@@ -1,0 +1,11 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/reset-password": "pages/reset-password.html",
+  "/sign-in": "pages/sign-in.html",
+  "/sign-up": "pages/sign-up.html",
+  "/privacy-policy": "pages/privacy-policy.html",
+  "/terms-of-service": "pages/terms-of-service.html",
+  "/404": "pages/404.html"
+}

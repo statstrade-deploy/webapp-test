@@ -1,0 +1,11 @@
+{
+  "pages": {
+    "/api/trpc/[trpc]/route": [
+      "static/chunks/webpack-28ca3cad5b282826.js",
+      "static/chunks/87c73c54-222ff14de66388b3.js",
+      "static/chunks/642-cd5abfa3516098bb.js",
+      "static/chunks/main-app-df8b8fde58ca905c.js",
+      "static/chunks/app/api/trpc/[trpc]/route-aa86839c9c551084.js"
+    ]
+  }
+}

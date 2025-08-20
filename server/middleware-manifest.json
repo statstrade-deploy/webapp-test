@@ -1,0 +1,62 @@
+{
+  "version": 3,
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge-runtime-webpack.js",
+        "server/middleware.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!api|static|.*\\..*|_next).*))(\\.json)?[\\/#\\?]?$",
+          "originalSource": "/((?!api|static|.*\\..*|_next).*)"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "4v3RP09A3u2SUTsarxdbW",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "t/V6HDE9drG4ER5rtfL7YUgieYvQkhcqroqSVA61Cc4=",
+        "__NEXT_PREVIEW_MODE_ID": "05d45a46eb54a160df0ac8c0f6178974",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "9a402f7d81be713006ca9f95f9b04a07d2a7aff3043e7c1402663f17f209d037",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "ed6dd939238e5571fcc17e93b342d084f119de950f3ad85cac3f6e5af410b758"
+      }
+    }
+  },
+  "functions": {
+    "/api/trpc/[trpc]/route": {
+      "files": [
+        "server/server-reference-manifest.js",
+        "server/app/api/trpc/[trpc]/route_client-reference-manifest.js",
+        "server/middleware-build-manifest.js",
+        "server/middleware-react-loadable-manifest.js",
+        "server/next-font-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "server/edge-runtime-webpack.js",
+        "server/app/api/trpc/[trpc]/route.js"
+      ],
+      "name": "app/api/trpc/[trpc]/route",
+      "page": "/api/trpc/[trpc]/route",
+      "matchers": [
+        {
+          "regexp": "^/api/trpc/(?<trpc>[^/]+?)$",
+          "originalSource": "/api/trpc/[trpc]"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "4v3RP09A3u2SUTsarxdbW",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "t/V6HDE9drG4ER5rtfL7YUgieYvQkhcqroqSVA61Cc4=",
+        "__NEXT_PREVIEW_MODE_ID": "05d45a46eb54a160df0ac8c0f6178974",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "9a402f7d81be713006ca9f95f9b04a07d2a7aff3043e7c1402663f17f209d037",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "ed6dd939238e5571fcc17e93b342d084f119de950f3ad85cac3f6e5af410b758"
+      }
+    }
+  },
+  "sortedMiddleware": [
+    "/"
+  ]
+}
